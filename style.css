@@ -1,0 +1,162 @@
+/* ======================================================================================================
+ GENERAL TYPOGRAPHY 
+=======================================================================================================*/
+
+/* ================= 1. CSS Reset ================= */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+	margin:0; padding:0; border:0; outline:0; font-family: Helvetica, Arial, Tahoma, sans-serif;}
+strong, b {font-weight:bold;}
+em, dfn, i {font-style:italic;}
+/* ================= General tags ================= */
+body {font: 12px/1.7 'Open Sans', sans-serif; color:#222222; text-align:center; margin:auto;  background:#f4f4f5;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif; margin-bottom:12px; font-weight:600;}
+a:link, a:visited, a:hover, a:active, a:focus {text-decoration:none; outline: none; font-family:'Open Sans', sans-serif;}
+a {color:#65c4e3; font-family:'Open Sans', sans-serif; font-weight:600;}
+a:hover {text-decoration:underline;}
+p {color:#222; font-size:14px; font-family:'Open Sans', sans-serif;	line-height:150%;}
+dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote, article, p {margin-bottom: 20px;}
+::selection {background:#2e2823;	color:#FFFFFF;}
+::-moz-selection {background:#2e2823;color:#FFFFFF;}
+/* ================= Headers ================= */
+h1 {font-size:50px; color:#fff; font-weight:normal; line-height:125%;}
+h2 {font-size:46px; color:#333;}
+h3 {font-size:42px; color:#333;}
+h4 {font-size:38px; color:#333;}
+h5 {font-size:28px; color:#333;}
+h6 {	font-size:24px; color:#333;}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {font-weight:700;}
+/* ================= List Styles ================= */
+ul {list-style:none; margin-top:0;}
+ol {margin-bottom:0; margin-top:0;}
+ol, ol li {list-style:decimal outside;}
+/* ================= Blockquote ================= */
+blockquote {quotes: none; padding: 0 10px 0 22px !important; color:#666666; line-height:22px; border-left:4px solid #ADD3DD;}
+/* ================= Images ================= */
+img.alignleft {float:left; margin:10px 16px 10px 0;}
+img.aligncenter {display:block; margin-left:auto; margin-right:auto;}
+img.alignright {float:right; margin:5px 0px 5px 11px;}
+/* ================= Dividers ================= */
+.clear {content:"."; display:block; clear:both; height:0; visibility:hidden;}
+.padding3 {padding-top:3px; font-size:0; line-height:0;}
+.padding5 {padding-top:5px; font-size:0;	line-height:0;}
+.padding10 {padding-top:10px; font-size:0; line-height:0;}
+.padding12 {padding-top:12px; font-size:0; line-height:0;}
+.padding15 {padding-top:15px; font-size:0; line-height:0;}
+.padding17 {padding-top:17px; font-size:0; line-height:0;}
+.padding20 {padding-top:20px; font-size:0; line-height:0;}
+.padding25 {padding-top:25px; font-size:0; line-height:0;}
+.padding30 {padding-top:30px; font-size:0; line-height:0;}
+.padding40 {padding-top:40px; font-size:0; line-height:0;}
+.padding50 {padding-top:50px; font-size:0; line-height:0;}
+.padding60 {padding-top:60px; font-size:0; line-height:0;}
+.padding80 {padding-top:80px; font-size:0; line-height:0;}
+.none {display:none;}
+.line {font-size:0px; border-top:1px solid #d9d9d9;}
+hr {background:transparent; border:0; clear:both; color:transparent;	height:1px;	margin:0; padding:0}
+hr {background:#d9d9d9; color:#d9d9d9; margin:5px 0 25px 0;}
+hr.dotted {border-style: dotted;}
+p + hr {margin:25px 0 20px 0;}
+/* ======================================================================================================
+ GENERAL STRUCTURE
+=======================================================================================================*/
+
+/* ================= Header and Logo ================= */
+.container {width:1135px; margin:0 auto;}
+.header_bg {background:#111111; height:30px; padding:10px 0 10px; width:100%; text-align:center; margin:auto;}
+.header_bg .logo {float:left; border:0; width:137px; height:11px; padding-top:10px;}
+/* ================= Header Menu ================= */
+.main-menu {float:right;}
+.main-menu ul {margin:0;}
+.main-menu li {display:inline; margin-left:0; padding:0;text-transform:uppercase;}
+.main-menu a {color:#a0a0a0; font-weight:normal; padding-top:10px; padding-bottom:10px; padding-right:5px; text-decoration:none;}
+.main-menu a:hover {text-decoration:none; color:#fbfbfd;}
+/* ================= Footer ================= */
+.footer_bg {background:transparent; margin-top:25px; text-align:center; margin:auto; width:100%; color:#a7a9ac; font-size:13px;}
+/* ================= Columns ================= */
+.content {width:1135px;margin-top:-55px !important;text-align:center; margin:auto;}
+.col_1 {width:15.4166666667%; float:left; margin:0 20px 0 0;}
+.col_2 {width:32.3333333333%; float:left; margin:0 20px 0 0;}
+.col_3 {width:49.25%; float:left; margin:0 20px 0 0;}
+.col_4{width:66.1666666667%; float:left; margin:0 20px 0 0;}
+.col_5 {width:83.0833333333%; float:left; margin:0 20px 0 0;}
+.col_6 {width:100%; float:left; margin:0 20px 0 0;}
+
+/* ======================================================================================================
+ SPECIFIC PAGE STYLES
+=======================================================================================================*/
+/* =================  Banner ================= */
+.bannerbg {background:url(images/bannerbg.jpg) repeat; padding:0; text-align:center; margin:auto; min-height:660px; width:100%;}
+.bannerContain {width:65%; text-align:center; margin:auto; padding-top:85px;}
+.bannerContain p {font-size:24px; color:#fff; font-weight:normal; padding-top:15px;}
+/* =================  Main Styles ================= */
+.languageBox {width:350px; height:435px; background:#fff; float:left; margin:25px 10px 0; position:relative;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);}
+.languageBoxContain {width:285px; text-align:center; margin:auto; padding-top:35px;}
+.languageBoxContain p {text-align:left; font-size:15px; color:#333; line-height:125%;}
+.lookingformoreBox {width:350px; height:435px; background:transparent; float:left; margin:25px 10px 0; padding-top:35px;}
+.lookingformoreBoxContain {width:285px; text-align:center; margin:auto; padding-top:35px;}
+.lookingformoreBoxContain h6 {text-align:left;}
+.lookingformoreBoxContain p {text-align:left; font-size:15px; color:#333; line-height:125%;}
+.viewGitHubbtn {background:url(images/githubicon.png) no-repeat 0 0; font-size:15px; color:#65c4e3; font-weight:700; padding-left:40px; height:23px; position:absolute; bottom:15px;}
+.viewGitHubbtn:hover {color:#4a8ca1; text-decoration:none;}
+/* === Clearfix === */
+.clear {clear:both; display:block; height:0; overflow:hidden; visibility:hidden; width:0}
+.clearfix:after {clear:both; content:' '; display:block; font-size:0; height:0; line-height:0; visibility:hidden; width:0}
+* html .clearfix, :first-child+html .clearfix {zoom:1}
+/* ======================================================================================================
+ MEDIA QUERIES
+=======================================================================================================*/	
+/* ================= Tablet (Portrait) 768px - 959px ================= */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* ================= Logo and Main menu ================= */
+.logo {display: block; float:none; width:100%;}
+.main-menu {	margin:0 0 30px 0;float:right;}
+/* =================  Banner ================= */
+.bannerContain {display:block; float:none; width:75%; text-align:center; margin:auto; padding-bottom:60px;}
+/* ================= Container and Columns ================= */
+.container {width:100%; text-align:center; margin:auto;float:none;}
+.content {text-align:center; margin:auto; width:750px;float:none;}
+}
+/* ================= Mobile (Portrait) < 767px ================= */
+@media only screen and (max-width: 767px) {
+/* ================= Logo and Main menu ================= */
+.logo {display:block;float:none;	text-align:center;width:100%;}
+.header_bg {background:#111;	height: auto;}
+.main-menu {margin:0 0 30px 0;float:right;width:100%;}
+.main-menu ul {position:static !important;padding:0 !important;}
+.main-menu li {box-shadow:none !important;border:0 !important;display:block !important;float:none !important;margin:0 !important;}
+.main-menu li a {padding:0 16px;line-height:33px;}
+/* =================  Banner ================= */
+.bannerContain {display:block; float:none; width:75%; text-align:center; margin:auto; padding-bottom:60px;}
+/* ================= Container and Columns ================= */
+.container {width:100%; text-align:center; margin:auto;float:none;}
+.content {text-align:center; margin:auto; width:650px;float:none;}
+}
+/* ================= Mobile (Landscape) 480px - 767px ================= */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* ================= Logo and Main menu ================= */
+.logo {display: block;float: none;width:100%;}
+.main-menu {margin:0 0 30px 0;float:left;}
+/* =================  Banner ================= */
+.bannerContain {display:block; float:none; width:75%; text-align:center; margin:auto; padding-bottom:60px;}
+/* ================= Container and Columns ================= */
+.container {width:100%; text-align:center; margin:auto;float:none;}
+.content {text-align:center; margin:auto; width:480px;float:none;}
+.languageBox {text-align:center; margin:auto; float:none; margin-bottom:25px;}
+
+}
+/* ================= Mobile (Portrait) < 320px ================= */
+@media only screen and (max-width: 317px) {
+/* =================  Logo ================= */
+.logo img {width:100%}
+/* ================= Container and Columns ================= */
+.container {width:100%; text-align:center; margin:auto;float:none;}
+.content {text-align:center; margin:auto; width:350px;float:none;}
+.languageBox {text-align:center; margin:auto; float:none; margin-bottom:25px;}
+
+}
